@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+/* End Variables */
+/* Start Global Rules */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+ul {
+  list-style: none;
+}
+/* End Golbal Rules */
+/* Start NAV-BAR */
+nav {
+  padding: 20px;
+  background-color: transparent;
+  height: 88px;
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+}
+.logo {
+  width: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transform: translateY(-8%);
+  -webkit-transform: translateY(-8%);
+  -moz-transform: translateY(-8%);
+  -ms-transform: translateY(-8%);
+  -o-transform: translateY(-8%);
+}
+nav li {
+  margin: 0px 10px;
+}
+.nav_btn {
+  background-color: var(--main-color);
+  border-radius: 30px;
+  -webkit-border-radius: 30;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  padding: 0px 15px;
+  border: 0px;
+}
+.nav_btn a {
+  color: rgb(203 146 73);
+  font-size: 14px;
+}
+.nav_btn:hover a {
+  color: rgb(221, 191, 152);
+}
+@media (min-width: 768px) {
+  .nav_ul li {
+    margin: 0px 5px;
+  }
+}
+/* END NAV-BAR */
+.background {
+  background-image: url(images/balsanie_City_skyline_with_long_exposure_photograph_road_and_di_27b60df2-4e1c-4c5a-8903-ad72693b7b1b.png);
+  min-height: 100vh;
+  background-size: cover;
+}
+.landing {
+  min-height: 100vh;
+}
+.landing .text {
+  height: 400px;
+}
+.landing p {
+  font-weight: bold;
+  width: fit-content;
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 44px;
+  background-color: rgba(0, 0, 0, 0.493);
+  margin: 0px;
+  padding: 0px 25px;
+}
+.landing p:first-of-type {
+  margin-top: 20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.landing p:nth-child(2) {
+  padding: 5px 22px;
+}
+.landing p:nth-child(3) {
+  padding: 0px 12px;
+}
+.landing p:nth-child(4) {
+  padding-left: 240px;
+  padding-right: 40px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.landing p:nth-child(5) {
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.box-landing {
+  position: absolute;
+  background-color: #d0d0d1ce;
+  width: 50%;
+  height: 80px;
+  bottom: 0px;
+  border-top-right-radius: 100px;
+}
+@media (min-width: 1080px) {
+  .landing p:first-of-type {
+    margin-top: 100px;
+  }
+  .landing p {
+    font-size: 44px;
+  }
+}
+@media (max-width: 768px) {
+  .landing p {
+    font-size: 22px;
+    margin: 0px;
+    padding: 0px 10px;
+  }
+  .landing p:first-of-type {
+    margin-top: 60px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 5px;
+    padding-right: 9px;
+  }
+  .landing p:nth-child(2) {
+    padding: 5px 8px;
+  }
+  .landing p:nth-child(3) {
+    padding: 0px 3px;
+  }
+  .landing p:nth-child(4) {
+    padding-left: 140px;
+  }
+  .landing p:nth-child(5) {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-bottom: 5px;
+  }
+  .landing .text {
+    width: 100%;
+  }
+  .box-landing {
+    width: 77%;
+  }
+}
+@media (min-width: 768px) {
+  .box-landing {
+    width: 40%;
+  }
+}
+/* End Landing Page */
+/* Start info page */
+.info .box {
+  height: 100%;
+  width: 50%;
+  background-color: #d0d0d1ce;
+  padding: 40px 20px;
+  padding-bottom: 172px;
+}
+.info p {
+  color: rgb(51, 51, 51);
+  font-weight: normal;
+  font-size: 35px;
+  margin-top: 20px;
+  font-family: "Raleway", sans-serif;
+}
+@media (min-width: 768px) {
+  .info p {
+    font-size: 45px;
+  }
+  .info .box {
+    width: 40%;
+  }
+}
+@media (max-width: 768px) {
+  .info p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .info .box {
+    width: 77%;
+    padding: 20px;
+    padding-bottom: 40px;
+  }
+}
+/* End info page */
+/* Start Key Products */
+.keyproducts {
+  text-align: center;
+  font-size: 32px;
+}
+.keyproducts .title {
+  text-align: center;
+  font-size: 47px;
+  padding: 80px;
+}
+.keyproducts .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.keyproducts .content .left-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 80px;
+  background-color: #e3e8f0;
+  width: 100%;
+  font-weight: bolder;
+}
+.keyproducts .left-div h5 {
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  white-space: nowrap; /* Prevents text from breaking into new lines */
+}
+.keyproducts .right-div {
+  padding: 0px 40px;
+  font-size: 27px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  color: #1c1c1c;
+}
+@media (max-width: 768px) {
+  .keyproducts .left-div {
+    margin: auto;
+    padding: 40px 10px;
+    margin-bottom: 20px;
+  }
+
+  .keyproducts .left-div h5 {
+    font-size: 27px;
+    white-space: normal; /* Allows normal wrapping on smaller screens */
+  }
+
+  .keyproducts p {
+    font-size: 14px;
+  }
+
+  .keyproducts .title {
+    font-size: 24px;
+    padding: 40px;
+  }
+
+  .keyproducts .content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* End Key Products */
+/* Start benefits section */
+.benefites {
+  padding: 40px 0px;
+}
+.benefites .feature {
+  margin-right: 20px;
+}
+.benefites .feature div {
+  width: 450px;
+}
+.benefites h2 {
+  text-align: center;
+  font-size: 47px;
+  padding: 80px 0px;
+}
+.benefites h5 {
+  font-weight: bolder;
+}
+.benefites img {
+  width: 140px;
+  transform: translateY(-30px);
+  -webkit-transform: translateY(-30px);
+  -moz-transform: translateY(-30px);
+  -ms-transform: translateY(-30px);
+  -o-transform: translateY(-30px);
+}
+.benefites .keyicons {
+  width: 80px;
+  margin-right: 20px;
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+}
+.benefites p {
+  line-height: 2;
+}
+@media (max-width: 768px) {
+  .benefites {
+    padding: 40px 20px;
+  }
+  .benefites img {
+    transform: translateY(-15px);
+    width: 90px;
+  }
+  .benefites h5 {
+    font-size: 15px;
+  }
+  .benefites h2 {
+    font-size: 23px;
+    padding: 40px;
+  }
+  .benefites .feature {
+    margin-right: 0px;
+  }
+}
+/* end benefits section */
+/* Start description */
+.description {
+  background-color: rgb(82 77 91);
+  padding: 200px;
+}
+.description2 {
+  padding: 100px 200px;
+}
+.description p {
+  font-size: 35px;
+  color: #fff;
+}
+.description span {
+  color: rgb(249 188 3);
+}
+@media (max-width: 768px) {
+  .description p {
+    font-size: 15px;
+  }
+  .description {
+    padding: 80px;
+  }
+  .description2 {
+    padding: 40px 80px;
+  }
+}
+/* End description */
+/* Start Footer */
+footer {
+  padding: 50px 80px;
+  padding-bottom: 20px;
+}
+footer .upperdiv {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 50px;
+}
+footer .upperdiv .title {
+  font-size: 50px;
+  font-weight: 500;
+}
+footer .upperdiv .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 40px;
+}
+footer .connections {
+  text-align: center;
+  width: 300px;
+  margin: 0px auto;
+}
+footer .connections img {
+  width: 150px;
+}
+footer .connections p {
+  font-size: 18px;
+  transform: translateY(-40px);
+  -webkit-transform: translateY(-40px);
+  -moz-transform: translateY(-40px);
+  -ms-transform: translateY(-40px);
+  -o-transform: translateY(-40px);
+}
+footer .copyright {
+  text-align: center;
+  font-weight: bold;
+  width: 70%;
+  margin: 0px auto;
+}
+@media (max-width: 768px) {
+  footer .upperdiv {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  footer .upperdiv .content {
+    margin-top: 20px;
+    padding: 0px;
+  }
+  footer .upperdiv .title {
+    font-size: 25px;
+  }
+  footer .connections {
+    text-align: center;
+    width: 150px;
+  }
+  footer .connections p {
+    font-size: 14px;
+  }
+  footer .copyright {
+    font-size: 12px;
+    width: 100%;
+  }
+}
+/* End Footer */

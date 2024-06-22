@@ -90,29 +90,18 @@ nav li {
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
 }
-.landing p:nth-child(2) {
-  padding: 5px 22px;
-}
-.landing p:nth-child(3) {
+.landing p:nth-child(1) {
   padding: 0px 12px;
 }
-.landing p:nth-child(4) {
+.landing p:nth-child(2) {
   margin-left: 200px;
   padding: 0px 40px;
 }
-.landing p:nth-child(5) {
+.landing p:nth-child(3) {
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
-  border-top-right-radius: 30px;
 }
-.box-landing {
-  position: absolute;
-  background-color: transparent;
-  width: 50%;
-  height: 80px;
-  bottom: 0px;
-  border-top-right-radius: 100px;
-}
+
 @media (min-width: 1080px) {
   .landing p:first-of-type {
     margin-top: 100px;
@@ -135,16 +124,10 @@ nav li {
     padding-right: 9px;
   }
   .landing p:nth-child(2) {
-    padding: 5px 8px;
+    margin-left: 100px;
+    padding: 0px 20px;
   }
   .landing p:nth-child(3) {
-    padding: 0px 3px;
-  }
-  .landing p:nth-child(4) {
-    margin-left: 80px;
-    padding: 0px 40px;
-  }
-  .landing p:nth-child(5) {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     padding-bottom: 5px;
@@ -152,15 +135,7 @@ nav li {
   .landing .text {
     width: 100%;
   }
-  .box-landing {
-    width: 77%;
-    padding: 20px;
-  }
-}
-@media (min-width: 768px) {
-  .box-landing {
-    width: 40%;
-  }
+
 }
 /* End Landing Page */
 /* Start info page */
